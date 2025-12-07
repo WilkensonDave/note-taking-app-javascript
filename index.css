@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 40px auto;
+    max-width: 800px;
+    width: 500px;
+    background-color: #264653;
+    padding:20px;
+    height: 500px;
+}
+
+.note-container{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 380px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: #fff;
+}
+.note-title{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn{
+    padding: 4px 10px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+.note{
+    max-width: 380px;
+    margin-left: 20px;
+    background-color: #fff;
+    height: 260px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.icons{
+    background-color: #ccc;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icons i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea{
+    width: 100%;
+    border: none;
+    height: 87%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: beige;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.title-div textarea{
+    border-radius: 0px 0px 0px 0px;
+    background-color: #e76f51;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: -4px;
+}
+
+.note textarea:focus{
+    border: 0;
+    outline: 0;
+}
+
