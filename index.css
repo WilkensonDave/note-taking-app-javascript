@@ -91,3 +91,39 @@ h1{
     outline: 0;
 }
 
+
+
+@media screen and (max-width:400px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        overflow-x: hidden;
+        
+    }
+    .note-title{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .note-container{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    .btn{
+        padding: auto;
+    }
+}
